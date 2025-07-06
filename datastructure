@@ -1,0 +1,29 @@
+#include<iostream.h>
+
+#include<conio.h>
+
+inline int cube(int a) 
+
+{
+
+return a*a*a;
+
+}
+
+void main() 
+
+{
+
+int n;
+
+clrscr( );
+
+cout<<"Enter the input number"<<endl;
+
+cin>>n;
+
+cout<<"Cube of"<<" = "<<cube(n); 
+
+getch( );
+
+}
